@@ -4,6 +4,11 @@
 
 ## General Notes on the proposed architecture
 
+See alsothe diagrams:
+
+- [Component  diagram](./Components.pdf)
+- [UriState FS Diagram](./States.pdf)
+
 ### Transport, Serialization, IPC
 
 The crawler is distributed system employing containerization technologies (Docker, Kubernetes, Azure Service Fabric, etc.) The containers contain mostly highly efficient, stateless services communicating over fast internal transports, serialization standards and IPC mechanisms:
